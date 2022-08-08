@@ -55,16 +55,7 @@ function App() {
   return (
     <div className="App">
     <Login/>
-      <Router basename={window.location.pathname || ''}>
-      
-        <Routes>
-          <Route path="/"  
-          element={<Login view={view} handleView = {handleView} inputChange = {handleChange}  userEmail = {user.email}  userPass= {user.password}  authorize = {authorize}  />}/>  />}/>
-                      
-          <Route  path="/profile" element ={<Profile/>} />
-          
-        </Routes>
-      </Router>
+     
       
     </div>
   );
