@@ -53,7 +53,8 @@ export default function Login(props){
             </div>
             <br></br>
             <button className="button">Submit</button>
-            <p className="note">Please refer to the userbase.js file to access login.</p>
+            <p className="note">Please refer to the Components/userbase.js file to access login.</p>
+            <p>Try: email: nic_ole@gmail.com, password: fishandbird123</p>
         </form>
         </div>
     
