@@ -54,13 +54,12 @@ function App() {
 
   return (
     <div className="App">
-
+      <h1>Welcome</h1>
       <Router>
       
         <Routes>
           <Route path="/"  
-          element={<Login 
-                      view={view} 
+          element={<Login view={view} 
                       handleView = {handleView}
                       inputChange = {handleChange}
                       userEmail = {user.email}
