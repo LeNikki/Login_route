@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className="App">
-    <Router basename={window.location.pathname || ''}>
+    <Router basename= "/">
       
         <Routes>
           <Route path="/"  
